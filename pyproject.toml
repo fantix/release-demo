@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "demo"
+version = "0.1.0-alpha"
+description = "Demo"
+license = "Apache-2.0"
+authors = ["Fantix King <fantix@uchicago.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry>=1.0.0"]
+build-backend = "poetry.masonry.api"
